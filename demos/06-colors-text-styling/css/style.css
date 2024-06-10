@@ -1,0 +1,30 @@
+#first-paragraph {
+    color: blue;
+    background-color: lightblue;
+    font-style: italic;
+    text-align: center;
+}
+#second-paragraph {
+    color: red;
+    background-color: aquamarine;
+    font-size: 12px;
+    text-decoration: overline;
+}
+#bold-paragraph {
+    font-weight: bold;
+    background-color: lightsalmon;
+}
+#span1 {
+    color: plum;
+    font-size: 21px;
+    text-decoration: underline;
+}
+#span2 {
+    font-style: italic;
+    font-size: 12px;
+    background-color: palegoldenrod
+}
+#span3 {
+    font-weight: bold;
+    font-size: 12px;
+}
