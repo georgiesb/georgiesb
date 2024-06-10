@@ -1,0 +1,104 @@
+#palette-name-1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+#block-1{
+    background-color: #F9C34E;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black
+}
+#code-1{
+    font-style:italic;
+}
+#block-2{
+    background-color: #FCDE9C;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black
+}
+#code-2{
+    font-style:italic;
+}
+#block-3{
+    background-color: #F16F55;
+    padding: 24px;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black
+}
+#code-3{
+    font-style:italic;
+}
+#palette-name-2{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-align: center;
+}
+#block-4{
+    background-color: #F4AFB4;
+    padding: 24px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black
+}
+#code-4{
+    font-style:italic;
+}
+#block-5{
+    background-color: #CBEEF3;
+    padding: 24px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black
+}
+#code-5{
+    font-style:italic;
+}
+#block-6{
+    background-color: #F7EF81;
+    padding: 24px;
+    text-align: center;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: black
+}
+#code-6{
+    font-style:italic;
+}
+#palette-name-3{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+#block-7{
+    background-color: #6F9283;
+    padding: 24px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    color: whitesmoke
+
+}
+#code-7{
+    font-style:italic;
+}
+#block-8{
+    background-color: #6D4C3D;
+    padding: 24px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    color: whitesmoke
+}
+#code-8{
+    font-style:italic;
+}
+#block-9{
+    background-color: #8D9F87;
+    padding: 24px;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;    
+    color: black
+
+}
+#code-9{
+    font-style:italic;
+}
