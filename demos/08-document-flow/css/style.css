@@ -1,0 +1,11 @@
+.narrow {
+    width: 200px;
+    display: inline-block;
+    background-color: lightsalmon;
+}
+.blue {
+    background-color: lightblue;
+}
+.orange {
+    background-color: coral;
+}
