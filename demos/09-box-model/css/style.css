@@ -1,0 +1,20 @@
+div{
+    border-bottom: 5px dashed pink;
+    border-left: 7px dotted blue;
+    border-right: 9px ridge purple;
+    border-top: 9px double green;
+    margin: 24px 0px;
+    padding: 15px;
+    background-color: aquamarine;
+}
+
+p {
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-style: italic;
+    text-align: center;
+    border: 20px solid pink;
+    margin: 10%;
+    padding: 20% 10%;
+    background-color: paleturquoise;
+    border-radius: 7%;
+}
