@@ -4,10 +4,10 @@
 
 body {
     margin: 0px;
-    font-family: sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
 
-.main-container {
+.sections {
     width: 50%;
     margin: 0px auto;
     text-align: center;
@@ -15,4 +15,16 @@ body {
 
 #section-1 {
     background-color: pink;
+    padding: 40px;
+}
+
+#section-2 {
+    background-color: rgb(12, 51, 19);
+    padding: 40px;
+    color: white;
+}
+
+#section-3 {
+    background-color: rgb(144, 219, 178);
+    padding: 40px;
 }
