@@ -1,0 +1,25 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+.single-column {
+    width: 50%;
+    min-width: 500px;
+    max-width: 1000px;
+    margin: 0px auto;
+    padding: 10px 30px;
+}
+
+.light-container {
+    background-color: bisque;
+}
+
+.dark-container {
+    background-color: #6e2e00;
+    color: cornsilk;
+}
