@@ -18,7 +18,7 @@ body {
     border-right: 1.5px solid peru;
 }
 
-#sidebar-content h2 {
+#sidebar-content h3 {
     border-bottom: 1.5px solid peru;
     padding-bottom: 8px;
 }
@@ -49,8 +49,28 @@ body {
     margin-top: 0%;
 }
 
+#intro {
+    font-style: italic;
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
 #plot,
 #production {
     padding-top: 40px;
     border-bottom: 1.5px solid peru;
+}
+
+#main-content h3 {
+    padding-top: 30px;
+}
+
+#main-content h4 {
+    font-style: italic;
+}
+
+#main-content a {
+    color: peru;
+    text-decoration: none;
 }
