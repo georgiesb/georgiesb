@@ -10,10 +10,11 @@
 
 .card-style-1 {
     width: 350px;
-    box-shadow: 4px 4px 25px #111111;
+    box-shadow: 1px 1px 15px #111111;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
+    flex-wrap: wrap;
+    margin: 20px;
 }
 
 .card-style-1 h2 {
