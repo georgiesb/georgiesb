@@ -10,28 +10,30 @@
 
 .card-style-3 {
     width: 350px;
-    border: 20px solid yellow;
+    border: 20px solid #ffd700;
     border-radius: 8px;
+    background-color: white;
     display: flex;
     padding: 10px;
     flex-direction: column;
-    background: linear-gradient(
-
-    );
     margin: 10px;
     flex-wrap: wrap;
 }
 
 .pokemon-header {
     display: flex;
-    border: 1px solid #111111;
+    align-items: baseline;
+    justify-content: space-between;
+}
 
+.pokemon-header h2 {
+    font-size: 30px;
+    margin-bottom: 0px;
 }
 
 .card-style-3 img {
     width: 100%;
-    border: 5px solid #111111;
-    /* display: block; */
+    border: 5px solid #dca71e;
 }
 
 .details {
@@ -40,25 +42,21 @@
     font-style: italic;
     text-align: center;
     margin-top: 7px;
-    margin-bottom: 15px;
+    margin-bottom: 8px;
     background: linear-gradient(
-
+        to left,
+        #dca71e,
+        #ffd92e,
+        #dca71e
     );
 }
 
 .attack {
     border-bottom: 2px solid #111111;
     display: flex;
-    align-items: baseline;
     padding-bottom: 20px;
-}
-
-.attack .energy {
-
-}
-
-.attack .description {
-
+    padding-top: 15px;
+    align-items: center;
 }
 
 .attack .description .bold {
@@ -67,13 +65,44 @@
 }
 
 .attack .power {
-
+    font-weight: bold;
+    font-size: 24px;
 }
 
 .data {
     font-size: 12px;
     font-weight: bold;
-    border: 2px solid #111111;
+    border: 2px solid #dca71e;
     padding: 2px;
     margin-top: 10px;
 }
+
+/* Card background gradients */
+#pokemon-card-1,
+#pokemon-card-2 {
+    background: linear-gradient(
+        -40deg,
+        #89e889,
+        #258d25,
+        #89e889
+    );
+}
+
+#pokemon-card-3 {
+    background: linear-gradient(
+        -40deg,
+        #ffa000,
+        #ff4700,
+        #ffa000
+    );
+}
+
+#pokemon-card-4 {
+    background: linear-gradient(
+        -40deg,
+        #06fdfe,
+        #85ceeb,
+        #06fdfe
+    );
+}
+
