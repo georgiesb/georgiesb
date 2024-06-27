@@ -29,11 +29,11 @@
     align-items: baseline;
 }
 
-.card-style-2 .profile-pic-container img {
+.profile-pic-container img {
     border-radius: 50%;
-    width: 100%;
-    /* padding: 40px 20px 20px 20px; */
-    /* object-fit: cover; */
+    width: 60%;
+    margin: 0 auto;
+    display: block;
 }
 
 .card-style-2 h2 {
