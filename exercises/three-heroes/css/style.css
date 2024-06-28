@@ -9,7 +9,7 @@ body {
 
 /* Hero 1 Styling */
 #hero-1 {
-    background-image: url(../images/left-text-animal.jpg);
+    background-image: url(../images/left-text-animal.png);
     height: 100vh;
     background-size: cover;
     background-position: right top;
@@ -22,15 +22,13 @@ body {
 }
 
 #hero-1 h1 {
-    background-color: blanchedalmond;
+    color: white;
     border-radius: 50px;
-    padding: 1.5vw 3vw;
 }
 
 #hero-1 p {
     color: white;
     font-weight: bolder;
-    margin-left: 2vw;
 }
 
 #hero-1 a {
@@ -41,7 +39,7 @@ body {
     color: white;
     text-decoration: none;
     padding: 20px 24px;
-    margin: 5vh 5vw 10vh 1vw;
+    margin: 5vh 5vw 10vh 0px;
     font-size: 1.2vw;
 }
 
