@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* navbar class styling */
+.navbar {
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+}
+
+.navbar h1 {
+    margin-right: auto;
+    margin-left: 15px;
+}
+
+.navbar a {
+    text-decoration: none;
+    padding: 24px;
+}
+
+/* Sculptor's Haven navbar styling */
+#sculptor {
+    background-color: peru;
+}
+
+#sculptor h1 {
+    color: #ffffff;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+#sculptor a {
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+#sculptor a:hover {
+    color: olive;
+}
+
+/* AngelEars navbar styling */
+#angel {
+    background-color: skyblue;
+}
+
+#angel h1 {
+    color: #ffffff;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+}
+
+#angel a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#angel a:hover {
+    color: #28586b;
+}
+
+#angel-button {
+    background-color: #28586b;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#angel-button:hover {
+    background-color: #ffffff;
+}

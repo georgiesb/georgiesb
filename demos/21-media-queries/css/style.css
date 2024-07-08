@@ -1,0 +1,22 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* good for tablet breakpoints */
+@media screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: skyblue;
+    }
+}
+
+/* good for mobile breakpoints */
+@media screen and (max-width: 480px) {
+    body {
+        background-color: peru;
+    }
+}
