@@ -77,3 +77,67 @@ body {
 #angel-button:hover {
     background-color: #ffffff;
 }
+
+/* Tailored Spooks styling */
+#promo {
+    text-align: center;
+    color: #ffffff;
+    font-weight: bold;
+    font-style: italic;
+    background-color: orangered;
+    padding: .10vw;
+}
+
+/* top navbar */
+#spooks {
+    background-color: black;
+    padding: 1vw;
+}
+
+#spooks h1 {
+    color: #ffffff;
+}
+
+#spooks a {
+    color: #ffffff;
+    font-weight: bold;
+}
+
+#spooks a:hover {
+    color: orange;
+}
+
+#spooks-button {
+    background-color: orange;
+    border-radius: 36px;
+    padding: 16px 24px;
+    font-weight: bold;
+    min-width: 150px;
+    text-align: center;
+    margin-right: 24px;
+}
+
+#spooks-button:hover {
+    background-color: #ffffff;
+}
+
+/* bottom navbar */
+#spooks-bottom {
+    display: flex;
+    justify-content: center;
+    justify-content: space-between;
+    background-color: #323232;
+    /* background-color: #ffd992; */
+    padding: 1.5vw 2.5vw 1.5vw 2vw;
+}
+
+#spooks-bottom a {
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 14px;
+}
+
+#spooks-bottom a:hover {
+    color: #ffd992;
+}
+
