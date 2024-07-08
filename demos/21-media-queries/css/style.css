@@ -7,6 +7,42 @@ body {
     font-family: sans-serif;
 }
 
+#nav {
+    background-color: #222222;
+    display: flex;
+    justify-content: center;
+}
+
+#nav a {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 18px;
+    padding: 20px;
+}
+
+
+.single-column-layout {
+    width: 90vw;
+    max-width: 800px;
+    padding: 48px auto;
+}
+
+.intro {
+    display: flex;
+    align-items: center;
+    gap: 48px;
+}
+
+.image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+
+/* Media Queries */
+
 /* good for tablet breakpoints */
 @media screen and (min-width: 481px) and (max-width: 768px) {
     body {
@@ -18,5 +54,15 @@ body {
 @media screen and (max-width: 480px) {
     body {
         background-color: peru;
+    }
+
+    #nav {
+        /* flex-wrap: wrap; */
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .intro {
+        flex-direction: column;
     }
 }
