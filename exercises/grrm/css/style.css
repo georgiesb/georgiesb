@@ -460,10 +460,63 @@ body {
 
     #nav {
         flex-wrap: wrap;
-        flex: 500px;
+    }
+
+    #nav a {
+        flex: 250px;
+        border-bottom: 2px solid #666666;
     }
 }
 
 @media screen and (max-width: 800px) {
+    #grid-layout {
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-areas:
+            "header"
+            "navbar"
+            "banner"
+            "card-1" 
+            "card-2"  
+            "card-3"
+            "aside"
+            "blog"
+            "footer"
+            "bottom";
+    }
 
+    #header h1 {
+        font-size: 28px;
+    } 
+
+    #nav {
+        flex-wrap: wrap;
+    }
+
+    #nav a {
+        flex: 100px;
+        border-bottom: 2px solid #666666;
+    }
+
+    #header {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #search-bar,
+    #search-button,
+    #shield-image {
+        display: none;
+    }
+
+    #banner-container,
+    #card-1,
+    #card-2,
+    #card-3,
+    #aside,
+    #main {
+        background-color: transparent;
+        padding: 0px;
+        margin: 0px;
+    }
 }
