@@ -14,17 +14,16 @@ body {
 }
 
 #nav a {
-    color: #ffffff;
-    text-decoration: none;
+    color: white;
     font-size: 18px;
+    text-decoration: none;
     padding: 20px;
 }
-
 
 .single-column-layout {
     width: 90vw;
     max-width: 800px;
-    padding: 48px auto;
+    margin: 48px auto;
 }
 
 .intro {
@@ -40,20 +39,109 @@ body {
     border-radius: 24px;
 }
 
+.image-container,
+.content-container {
+    flex: 1;
+}
+
+.image-container {
+    height: 400px;
+}
+
+.content-container h1 {
+    font-size: 48px;
+}
+
+.featured {
+    background-color: #222222;
+    color: white;
+    padding: 24px 0px;
+}
+
+.featured h2 {
+    font-size: 32px;
+    text-align: center;
+}
+
+.grid img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+    border-radius: 24px;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 16px;
+    grid-template-areas: 
+        "txt1 img1 img2 img2"
+        "img3 img3 img4 txt2";
+}
+
+#p1 {
+    grid-area: txt1;
+}
+#p2 {
+    grid-area: txt2;
+}
+#img1 {
+    grid-area: img1;
+}
+#img2 {
+    grid-area: img2;
+}
+#img3 {
+    grid-area: img3;
+}
+#img4 {
+    grid-area: img4;
+}
+
+.grid p {
+    border: 2px solid #ffb700;
+    border-radius: 24px;
+    margin: 0px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 /* Media Queries */
 
 /* good for tablet breakpoints */
 @media screen and (min-width: 481px) and (max-width: 768px) {
     body {
-        background-color: skyblue;
+        /* background-color: skyblue; */
+    }
+
+    .content-container h1 {
+        font-size: 32px;
+    }
+
+    .intro {
+        gap: 24px;
+    }
+
+    .image-container {
+        height: 300px;
+    }
+
+    .grid {
+        grid-template-columns: 1fr 1fr;
+        grid-template-areas: 
+            "txt1 img1" 
+            "img2 img2"
+            "img3 img3" 
+            "img4 txt2";
     }
 }
 
 /* good for mobile breakpoints */
 @media screen and (max-width: 480px) {
     body {
-        background-color: peru;
+        /* background-color: peru; */
     }
 
     #nav {
@@ -62,7 +150,37 @@ body {
         align-items: center;
     }
 
+
     .intro {
         flex-direction: column;
+        gap: 24px;
     }
+
+    .content-container h1 {
+        margin: 0px;
+        font-size: 32px;
+    }
+
+    .content-container {
+        text-align: center;
+    }
+
+    .grid {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "txt1" 
+            "img1" 
+            "img2"
+            "img3" 
+            "img4" 
+            "txt2";
+    }
+
+    .grid p {
+        height: 300px;
+        /* display: flex;
+        justify-content: center;
+        align-items: center; */
+    }
+
 }
