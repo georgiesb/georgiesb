@@ -6,3 +6,119 @@ body {
     margin: 0px;
     font-family: sans-serif;
 }
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+}
+
+.card {
+    flex: 300px;
+    border: 1px solid #111111;
+    margin: 24px;
+    padding: 24px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.card a { 
+    text-decoration: none;
+    color: #111111;
+    display: block;
+    padding: 12px;
+    margin-top: 36px;
+    border-radius: 30px;
+}
+
+/* gallery 1 */
+
+#gallery1 #card1,
+#gallery1 #card2,
+#gallery1 #card3,
+#gallery1 #card4 {
+    background-color: #baead0;
+    transition: 
+        background-color 0.4s,
+        box-shadow 0.4s,
+        transform 0.4s;
+}
+
+#gallery1 #card1:hover,
+#gallery1 #card2:hover,
+#gallery1 #card3:hover,
+#gallery1 #card4:hover {
+    box-shadow: 4px 4px 4px #00000033;
+    transform: translateY(-4px);
+}
+
+#gallery1 #card1 a,
+#gallery1 #card2 a,
+#gallery1 #card3 a,
+#gallery1 #card4 a {
+    background-color: #67ae86;
+}
+
+/* gallery 2 */
+
+#gallery2 #card1,
+#gallery2 #card2,
+#gallery2 #card3,
+#gallery2 #card4 {
+    background-color: #e38f8f;
+    border: none;
+    border-radius: 50%;
+    padding: 48px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    transition: 
+        background-color 0.4s,
+        box-shadow 0.4s,
+        transform 0.4s;
+}
+
+#gallery2 #card1 .book,
+#gallery2 #card2 .book,
+#gallery2 #card3 .book,
+#gallery2 #card4 .book {
+    visibility: hidden;
+    font-weight: bold;
+    font-style: normal;
+    transition: 
+        visibility 0.5s;
+}
+
+#gallery2 #card1:hover .book,
+#gallery2 #card2:hover .book,
+#gallery2 #card3:hover .book,
+#gallery2 #card4:hover .book {
+    visibility: visible;
+}
+
+/* gallery 3 */
+#gallery3 #card1 a,
+#gallery3 #card2 a,
+#gallery3 #card3 a,
+#gallery3 #card4 a {
+    background-color: #4dcbc9;
+    transition:
+        background-color 0.4s,
+        color 0.4s;
+}
+
+#gallery3 #card1:hover a,
+#gallery3 #card2:hover a,
+#gallery3 #card3:hover a,
+#gallery3 #card4:hover a {
+    background-color: white;
+    color: #4dcbc9;
+}
+
+#gallery3 #card1 img,
+#gallery3 #card2 img,
+#gallery3 #card3 img,
+#gallery3 #card4 img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+}
