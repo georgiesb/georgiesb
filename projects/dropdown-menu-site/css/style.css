@@ -109,8 +109,8 @@ body {
 
 /* adoptee page styling */
 .profile-container {
-        width: 50%; 
-        min-width: 500px;
+        width: 100%; 
+        max-width: 500px;
         margin: 90px auto; 
 }
 
