@@ -1,0 +1,120 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+/* navbar styling */
+#navbar {
+    background-color: peru;
+    display: flex;
+    align-items: center;
+}
+
+#navbar #logo {
+    margin-right: auto;
+    font-weight: bold;
+    font-size: 36px;
+    padding-top: 13px;
+    padding-bottom: 12px;
+}
+
+#navbar a {
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    padding: 24px;
+}
+
+#navbar a:hover {
+    text-decoration: underline;
+}
+
+/* dropdown styling */
+.dropdown-container {
+    position: relative;
+}
+
+.dropdown-menu {
+    position: absolute;
+    opacity: 0;
+    visibility: hidden;
+    transition: 
+        opacity 0.25s,
+        visibility 0.25s;
+}
+
+.dropdown-menu a {
+    background-color: peru;
+    width: 50%;
+    min-width: 70px;
+}
+
+#navbar .dropdown-menu a:hover {
+    background: #d7a069;
+}
+
+.dropdown-container:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* hero styling */
+#hero {
+    background-image: url("../images/doggie-hero.jpg");
+    height: 100vh;
+    background-size: cover;
+    background-position: right bottom;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    padding-left: 5vw;
+    flex-direction: column;
+}
+
+#hero h1 {
+    font-size: 3.3vw;
+    margin-bottom: 5px;
+}
+
+#hero p {
+    font-size: 2vw;
+    font-style: italic;
+    margin-top: 10px;
+}
+
+#hero a {
+    font-size: 1.5vw;
+    font-weight: bolder;
+    display: inline-block;
+    background-color: #3c63a7;
+    border-radius: 50px;
+    color: white;
+    text-decoration: none;
+    padding: 20px 24px;
+    font-size: 1.2vw;
+    transition: 
+        background-color 0.4s,
+        color 0.4s;
+}
+
+#hero a:hover {
+    background-color: white;
+    color: #3c63a7;
+
+}
+
+/* adoptee page styling */
+
+
+
+/* media queries */
+
+/* wider screens? */
+
+/* tablet */
+
+/* mobile */
