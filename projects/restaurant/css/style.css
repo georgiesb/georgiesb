@@ -81,8 +81,48 @@ body {
     font-size: 40px;
 }
 
-/* gallery/grid styling */
+/* cards styling */
+#cards-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
 
+.cards {
+    display: flex;
+    flex-direction: column;
+    padding: 80px;
+}
+
+.cards h2 {
+    font-family: Port Lligat Sans;
+}
+
+#card1 {
+
+}
+
+.review {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#card2 {
+    background-image: url(../images/content2.jpg);
+    background-size: cover;
+}
+
+#card3 {
+    background-image: url(../images/content3.jpg);
+}
+
+#card2:hover .review {
+    visibility: hidden;
+    opacity: 0;
+}
+
+#card4 {
+    
+}
 
 /* Menu Page Styling */
 
