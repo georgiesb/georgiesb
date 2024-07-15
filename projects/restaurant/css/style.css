@@ -25,7 +25,7 @@ body {
     display: flex;
     align-items: center;
     padding: 10px;
-    background-color: #ffffff61;
+    /* background-color: #ffffff61; */
 }
 
 #navbar a {
@@ -41,14 +41,14 @@ body {
 }
 
 #navbar #logo img {
-    width: 150px;
+    width: 175px;
 }
 
 /* footer styling */
 #footer {
     display: flex;
     padding: 12px;
-    background-color: #1A793D;
+    background-color: #049A96;
     color: white;
 }
 
@@ -101,39 +101,113 @@ body {
 .cards {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    justify-content: center;
     padding: 80px;
+    height: 100vh;
 }
 
 .cards h2 {
     font-family: Port Lligat Sans;
+    font-size: 48px;
+    text-align: center;
+}
+
+.cards a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 30px;
+    background-color: white;
+    padding: 12px 24px;
+    border-radius: 60px;
+    width: 150px;
+    transition: 
+        background-color 0.4s,
+        border 0.4s,
+        color 0.4s;
 }
 
 #card1 {
+    background-color: #1A793D;
+    color: white;
+    font-size: 21px;
+}
 
+#card1 a {
+    color: #1A793D;
+    background-color: white;
+    border: 2px solid #1A793D;
+}
+
+#card1 a:hover {
+    color: white;
+    background-color: #1A793D;
+    border: 2px solid white;
+}
+
+#card1 p,
+#card4 p {
+    margin-bottom: 3px;
+    margin-top: 5px;
 }
 
 .review {
-    visibility: hidden;
-    opacity: 0;
+    background-color: #f5c939d5;
+    text-align: center;
+    font-size: 18px;
+    color: black;
+    padding: 40px 80px 40px 80px;
+    visibility: visible;
+    opacity: 1;
+    transition: 
+        visibility 0.6s,
+        opacity 0.6s;
+}
+
+.quote {
+    font-style: italic;
 }
 
 #card2 {
     background-image: url(../images/content2.jpg);
     background-size: cover;
+    background-position: center;
 }
 
 #card3 {
     background-image: url(../images/content3.jpg);
+    background-size: cover;
+    background-position: center;
 }
 
-#card2:hover .review {
+#card2:hover .review,
+#card3:hover .review {
     visibility: hidden;
     opacity: 0;
+    transition: 
+        visibility 0.6s,
+        opacity 0.6s;
 }
 
 #card4 {
-    
+    background-color: #C42328;
+    color: white;
+    font-size: 21px;
 }
+
+#card4 a {
+    color: #C42328;
+    background-color: white;
+    border: 2px solid #C42328;
+}
+
+#card4 a:hover {
+    color: white;
+    background-color: #C42328;
+    border: 2px solid white;
+}
+
 
 /* Menu Page Styling */
 
