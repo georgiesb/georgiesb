@@ -46,7 +46,10 @@ body {
 
 /* footer styling */
 #footer {
+    display: flex;
     padding: 12px;
+    background-color: #1A793D;
+    color: white;
 }
 
 #footer a {
@@ -58,6 +61,14 @@ body {
     margin: 0px auto;
     display: flex;
     justify-content: space-between;
+}
+
+#footer #footer-logo {
+    margin-right: auto;
+}
+
+#footer #footer-logo img {
+    height: 60px;
 }
 
 
