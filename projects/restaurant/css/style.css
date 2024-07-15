@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: sans-serif;
+}
+
+#header {
+    background-image: url(../images/hero6.jpg);
+    background-size: cover;
+    background-position: center top;
+    background-attachment: fixed;
+}
+
+/* navbar styling */
+#navbar {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #ffffff61;
+}
+
+#navbar a {
+    text-decoration: none;
+    color: white;
+    font-family: calibri;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 24px;
+}
+
+#navbar #logo {
+    margin-right: auto;
+}
+
+#navbar #logo img {
+    width: 150px;
+}
+
+/* footer styling */
+#footer {
+    padding: 12px;
+}
+
+#footer a {
+    text-decoration: none;
+}
+
+#footer-navbar {
+    width: 800px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+/* Home Page Styling */
+/* hero styling */
+#hero {
+    height: 80vh;
+    width: 100%;
+}
+
+/* gallery/grid styling */
+
+
+/* Menu Page Styling */
+
+
+/* Media Queries */
