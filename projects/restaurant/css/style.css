@@ -14,7 +14,7 @@ body {
   }
 
 #header {
-    background-image: url(../images/hero6.jpg);
+    background-image: url(../images/hero8.jpg);
     background-size: cover;
     background-position: center top;
     background-attachment: fixed;
@@ -25,15 +25,7 @@ body {
     display: flex;
     align-items: center;
     padding: 10px;
-    /* background-color: #ffffff61; */
-}
-
-#navbar a {
-    text-decoration: none;
-    color: black;
-    font-weight: bold;
-    font-size: 18px;
-    padding: 24px;
+    background-color: #ffffff1a;
 }
 
 #navbar #logo {
@@ -44,6 +36,20 @@ body {
     width: 175px;
 }
 
+#navbar a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 24px;
+    transition: 
+        color 0.4s;
+}
+
+#navbar a:hover {
+    color: #C42328;
+}
+
 /* footer styling */
 #footer {
     display: flex;
@@ -52,23 +58,18 @@ body {
     color: white;
 }
 
+#footer-navbar {
+    display: flex;
+    justify-content: center;
+    /* justify-content: space-between; */
+}
+
 #footer a {
     text-decoration: none;
 }
 
-#footer-navbar {
-    width: 800px;
-    margin: 0px auto;
-    display: flex;
-    justify-content: space-between;
-}
-
-#footer #footer-logo {
-    margin-right: auto;
-}
-
-#footer #footer-logo img {
-    height: 60px;
+#footer-logo img {
+    height: 40px;
 }
 
 
@@ -78,18 +79,47 @@ body {
     height: 80vh;
     width: 100%;
     padding-left: 80px;
+    display: flex;
+    flex-direction: column;
 }
 
 #hero h1 {
     text-align: left;
     font-family: badaboom-pro, sans-serif;
     font-size: 72px;
+    margin-top: 90px;
+    margin-bottom: 10px;
 }
 
 #hero h3 {
     text-align: left;
     font-family: Port Lligat Sans;
     font-size: 40px;
+    margin-top: 10px;
+}
+
+#hero a {
+    text-decoration: none;
+    font-weight: bold;
+    text-align: center;
+    font-size: 21px;
+    margin-top: 10px;
+    color: black;
+    background-color: #f5c939;
+    border: 2px solid #f5c939;
+    padding: 12px 24px;
+    border-radius: 60px;
+    width: 200px;
+    transition: 
+        background-color 0.4s,
+        border 0.4s,
+        color 0.4s;
+}
+
+#hero a:hover {
+    color: black;
+    background-color: #00000000;
+    border: 2px solid black;
 }
 
 /* cards styling */
