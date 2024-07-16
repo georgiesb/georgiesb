@@ -8,11 +8,12 @@ body {
     background-color: #f8f1d3;
 }
 
+
 .port-lligat-sans-regular {
     font-family: "Port Lligat Sans", sans-serif;
     font-weight: 400;
     font-style: normal;
-  }
+}
 
 #header {
     background-image: url(../images/hero8.jpg);
@@ -20,6 +21,7 @@ body {
     background-position: center top;
     background-attachment: fixed;
 }
+
 
 /* navbar styling */
 #navbar {
@@ -67,7 +69,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    font-family: "Port Lligat Sans", sans-serif;
+    font-family: Port Lligat Sans, sans-serif;
     font-size: 20px;
 }
 
@@ -101,7 +103,7 @@ body {
 
 #hero h3 {
     text-align: left;
-    font-family: Port Lligat Sans;
+    font-family: Port Lligat Sans, sans-serif;
     font-size: 40px;
     margin-top: 10px;
 }
@@ -248,37 +250,45 @@ body {
 
 
 /* Menu Page Styling */
+/* two columns #1 layout */
+#two-columns1 {
+    display: flex;
+    margin: 50px;
+}
+
 /* featured dish styling */
-#single-column {
-    width: 50%;
-    margin: 0px auto;
-    padding: 36px 0px;
+#featured-img {
+    flex: 1.5;
+    padding: 10px;
+}
+
+#featured-img img {
+    width: 100%;
+    border-radius: 5px;
 }
 
 #featured {
-    display: inline-block;
-    width: 49%;
+    flex: 1;
+    padding: 50px;
 }
 
 #featured h2 {
-    font-family: Port Lligat Sans;
+    font-family: Port Lligat Sans, sans-serif;
     font-size: 48px;
     margin-bottom: 5px;
     margin-top: 5px;
+}
+
+#featured #color {
+    color: #1A793D;
 }
 
 #featured p {
     font-size: 21px;
 }
 
-#featured-img img {
-    padding-left: 36px;
-    width: 100%;
-    border-radius: 5px;
-}
-
-/* two column layout */
-#two-column {
+/* two columns #2 layout */
+#two-columns2 {
     display: flex;
 }
 
@@ -312,7 +322,7 @@ body {
     color: black;
     font-weight: bold;
     font-size: 21px;
-    font-family: Port Lligat Sans;
+    font-family: Port Lligat Sans, sans-serif;
     margin-top: 20px;
 }
 
@@ -329,12 +339,12 @@ body {
 }
 
 .menu-cards h2 {
-    font-family: Port Lligat Sans;
+    font-family: Port Lligat Sans, sans-serif;
     font-size: 36px;
 }
 
 .menu-cards h3 {
-    font-family: Port Lligat Sans;
+    font-family: Port Lligat Sans, sans-serif;
 }
 
 .app-cards {
@@ -352,6 +362,9 @@ body {
 #app2,
 #app3 {
     padding: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
 }
 
 .entree-cards {
@@ -368,6 +381,9 @@ body {
 #entree2,
 #entree3 {
     padding: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
 }
 
 .dessert-cards {
@@ -385,6 +401,11 @@ body {
 #dessert2,
 #dessert3 {
     padding: 30px;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
 }
+
+
 
 /* Media Queries */
