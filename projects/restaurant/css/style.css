@@ -5,6 +5,7 @@
 body {
     margin: 0px;
     font-family: calibri, sans-serif;
+    background-color: #f8f1d3;
 }
 
 .port-lligat-sans-regular {
@@ -50,18 +51,24 @@ body {
     color: #C42328;
 }
 
-/* footer styling */
-#footer {
-    display: flex;
-    padding: 12px;
-    background-color: #049A96;
-    color: white;
+#navbar #on-page {
+    color: #C42328;
 }
 
-#footer-navbar {
+/* footer styling */
+#footer {
+    padding: 40px 12px 12px;
+    background-color: #049A96;
+    color: white;
+    text-align: center;
+}
+
+#footer #part1 {
     display: flex;
     justify-content: center;
-    /* justify-content: space-between; */
+    align-items: center;
+    font-family: "Port Lligat Sans", sans-serif;
+    font-size: 20px;
 }
 
 #footer a {
@@ -69,7 +76,8 @@ body {
 }
 
 #footer-logo img {
-    height: 40px;
+    height: 35px;
+    margin: 10px;
 }
 
 
@@ -240,6 +248,53 @@ body {
 
 
 /* Menu Page Styling */
+/* featured dish styling */
+#single-column {
+    width: 50%;
+    margin: 0px auto;
+    padding: 36px 0px;
+}
+
+#featured {
+    display: inline-block;
+    width: 49%;
+}
+
+#featured h2 {
+    font-family: Port Lligat Sans;
+    font-size: 48px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+#featured p {
+    font-size: 21px;
+}
+
+#featured-img img {
+    padding-left: 36px;
+    width: 100%;
+    border-radius: 5px;
+}
+
+/* two column layout */
+#two-column {
+    display: flex;
+}
+
+/* sidebar styling */
+#sidebar {
+    background-color: #f5c939;
+    padding: 30px;
+}
+
+#sidebar a {
+    text-decoration: none;
+    color: black;
+}
+
+/* menu styling */
+
 
 
 /* Media Queries */
