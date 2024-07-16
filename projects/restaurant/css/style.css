@@ -282,19 +282,109 @@ body {
     display: flex;
 }
 
+/* #v {
+    color: #1A793D;
+    font-weight: bold;
+}
+
+#gf {
+    color: #C42328;
+    font-weight: bold;
+} */
+
 /* sidebar styling */
 #sidebar {
+    flex: .3;
     background-color: #f5c939;
-    padding: 30px;
+    border-radius: 5px;
+    padding: 40px 50px;
+    margin: 10px 40px 97px 60px;
+}
+
+#sidebar h1 {
+    font-family: badaboom-pro, sans-serif;
+    font-size: 52px;
 }
 
 #sidebar a {
+    display: block;
     text-decoration: none;
     color: black;
+    font-weight: bold;
+    font-size: 21px;
+    font-family: Port Lligat Sans;
+    margin-top: 20px;
 }
 
 /* menu styling */
+#menu {
+    flex: 1;
+    padding: 60px 40px 50px 20px;
+}
 
+.menu-cards {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
 
+.menu-cards h2 {
+    font-family: Port Lligat Sans;
+    font-size: 36px;
+}
+
+.menu-cards h3 {
+    font-family: Port Lligat Sans;
+}
+
+.app-cards {
+    background-color: #1A793D;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    padding: 30px;
+    margin-bottom: 50px;
+    color: white;    
+}
+
+#app1,
+#app2,
+#app3 {
+    padding: 30px;
+}
+
+.entree-cards {
+    background-color: #ED7C38;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    padding: 30px;
+    margin-bottom: 50px;
+}
+
+#entree1,
+#entree2,
+#entree3 {
+    padding: 30px;
+}
+
+.dessert-cards {
+    background-color: #C42328;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    width: 900px;
+    padding: 30px;
+    margin-bottom: 50px;
+    color: white;
+}
+
+#dessert1,
+#dessert2,
+#dessert3 {
+    padding: 30px;
+}
 
 /* Media Queries */
