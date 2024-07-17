@@ -10,7 +10,6 @@ body {
 }
 
 /* page layout/style */
-
 #single-column {
     width: 1000px;
     margin: 48px auto;
@@ -148,6 +147,7 @@ p {
 
     #teams {
         flex-direction: column;
+        margin: 20px 10px 40px 10px;
     }
 
     #teams img {
@@ -183,6 +183,7 @@ p {
 
     #teams {
         flex-direction: column;
+        margin: 10px 10px 20px 10px;
     }
 
     #teams img {
