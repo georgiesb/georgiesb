@@ -15,13 +15,15 @@ body {
     width: 1000px;
     margin: 48px auto;
     text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
-    font-size: 72px;
+    font-size: 84px;
     font-family: "industry-inc-detail";
     color: #D9A300;
-    margin: 5px;
+    margin: 0px;
 }
 
 h2 {
@@ -40,11 +42,33 @@ p {
 
 #intro {
     margin-bottom: 80px;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+}
+
+#intro h3 {
+    margin-top: 10px;
 }
 
 #teams {
     display: flex;
     justify-content: space-between;
+    margin: 40px 10px 80px 10px;
+    display: flex;
+}
+
+#teams img {
+    width: 100%;
+}
+
+#details p {
+    margin-top: 50px;
+    font-style: italic;
+}
+
+#rsvp {
+    margin-top: 40px;
 }
 
 #rsvp a {
@@ -53,43 +77,107 @@ p {
     text-decoration: none;
     font-weight: bold;
     font-size: 18px;
-    color: #9C2B1A;
     padding: 20px 35px;
-    background-color: white;
-    border: 2px solid white;
     border-radius: 40px;
     width: 220px;
     transition:
         background-color 0.4s,
-        color 0.4s,
-        border 0.4s;
+        color 0.4s;
 }
 
 #rsvp #yes {
     color: #472824;
     background-color: #D9A300;
-    border: 3px solid #D9A300;
 }
 
 #rsvp #no {
     color: white;
     background-color: #733026;
-    border: 3px solid #733026;
 }
 
 #rsvp #yes:hover {
     color: #D9A300;
     background-color: #ffffff;
-    border: 3px solid #D9A300;
 }
 
 #rsvp #no:hover {
-    border: 3px solid #733026;
     color: #733026;
     background-color: #ffffff;
 }
 
 
 /* Media Queries */
+@media screen and (min-width: 1030px) {
+    #teams h3 {
+        font-size: 28px;
+    }
+}
 
+@media screen and (max-width: 1029px) and (min-width: 881px) {
+    #single-column {
+        width: 880px;
+        margin: 24px auto;
+    }
 
+    #teams {
+        flex-direction: column;
+    }
+
+    #teams img {
+        width: 50%;
+    }
+
+    #teams h3 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 880px) and (min-width: 621px) {
+    #single-column {
+        width: 600px;
+        margin: 20px auto;
+    }
+
+    h1 {
+        font-size: 72px;
+    }
+
+    h2 {
+        font-size: 50px;
+    }
+
+    #teams {
+        flex-direction: column;
+    }
+
+    #teams img {
+        width: 40%;
+    }
+
+    #teams h3 {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    #single-column {
+        width: 450px;
+        margin: 16px auto;
+    }
+
+    h1 {
+        font-size: 72px;
+    }
+
+    #teams {
+        flex-direction: column;
+    }
+
+    #teams img {
+        width: 30%;
+    }
+
+    #teams h3 {
+        font-size: 20px;
+    }
+}
