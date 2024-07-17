@@ -1,0 +1,95 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #9C2B1A;
+    color: white;
+}
+
+/* page layout/style */
+
+#single-column {
+    width: 1000px;
+    margin: 48px auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 72px;
+    font-family: "industry-inc-detail";
+    color: #D9A300;
+    margin: 5px;
+}
+
+h2 {
+    font-size: 50px;
+    font-family: "industry-inc-stencil";
+    color: #D9A300;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+p {
+    font-size: 18px;
+}
+
+#intro {
+    margin-bottom: 80px;
+}
+
+#teams {
+    display: flex;
+    justify-content: space-between;
+}
+
+#rsvp a {
+    display: inline-block;
+    margin: 40px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+    color: #9C2B1A;
+    padding: 20px 35px;
+    background-color: white;
+    border: 2px solid white;
+    border-radius: 40px;
+    width: 220px;
+    transition:
+        background-color 0.4s,
+        color 0.4s,
+        border 0.4s;
+}
+
+#rsvp #yes {
+    color: #472824;
+    background-color: #D9A300;
+    border: 3px solid #D9A300;
+}
+
+#rsvp #no {
+    color: white;
+    background-color: #733026;
+    border: 3px solid #733026;
+}
+
+#rsvp #yes:hover {
+    color: #D9A300;
+    background-color: #ffffff;
+    border: 3px solid #D9A300;
+}
+
+#rsvp #no:hover {
+    border: 3px solid #733026;
+    color: #733026;
+    background-color: #ffffff;
+}
+
+
+/* Media Queries */
+
+
