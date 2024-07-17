@@ -89,8 +89,10 @@ body {
     height: 80vh;
     width: 100%;
     padding-left: 80px;
+    padding-right: 80px;
     display: flex;
     flex-direction: column;
+    align-items: flex-start;
 }
 
 #hero h1 {
@@ -127,9 +129,9 @@ body {
 }
 
 #hero a:hover {
-    color: black;
-    background-color: #00000000;
-    border: 2px solid black;
+    color: rgb(255, 255, 255);
+    background-color: #C42328;
+    border: 2px solid #C42328;
 }
 
 /* cards styling */
@@ -143,6 +145,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    text-align: center;
     padding: 80px;
     height: 100vh;
 }
@@ -150,7 +153,6 @@ body {
 .cards h2 {
     font-family: Port Lligat Sans;
     font-size: 48px;
-    text-align: center;
 }
 
 .cards a {
@@ -194,7 +196,6 @@ body {
 
 .review {
     background-color: #f5c939d5;
-    text-align: center;
     font-size: 18px;
     color: black;
     padding: 40px 80px 40px 80px;
@@ -409,3 +410,212 @@ body {
 
 
 /* Media Queries */
+/* footer only */
+@media screen and (max-width: 1040px) {
+    #footer-logo img {
+        display: none;
+    }
+}
+
+/* tablet */
+@media screen and (max-width: 1220px) {
+    #hero h1 {
+        background-color: #f7f7f7;
+        color: #0e1111;
+        padding: 30px;
+        border-radius: 20px;
+        font-size: 64px;
+    }
+
+    #hero h3 {
+        background-color: #f7f7f7;
+        color: #0e1111;
+        padding: 20px;
+        border-radius: 20px;
+    }
+}
+
+@media screen and (max-width: 1000px) and (min-width: 901px) {
+    #hero h1 {
+        font-size: 60px;
+    }
+
+    .cards {
+        padding: 40px;
+        height: 80vh;
+    }
+
+    .cards h2 {
+        font-size: 36px;
+    }
+
+    #card2 p,
+    #card3 p {
+        font-size: 14px;
+    }
+
+    #card2:hover .review,
+    #card3:hover .review {
+        visibility: visible;
+        opacity: 1;
+        transition: 
+            visibility 0.6s,
+            opacity 0.6s;
+    }
+}
+
+@media screen and (max-width: 900px) and (min-width: 650px) {
+    #hero {
+        padding-left: 60px;
+        padding-right: 60px;
+    }
+
+    #hero h1 {
+        font-size: 52px;
+    }
+
+    .cards {
+        padding: 40px;
+        height: 60vh;
+    }
+
+    .cards h2 {
+        font-size: 36px;
+    }
+
+    #cards-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "card1"
+            "card2"
+            "card4"
+            "card3";
+    }
+
+    #card1 {
+        grid-area: card1;
+    }
+
+    #card2 {
+        grid-area: card2;
+    }
+
+    #card3 {
+        grid-area: card3;
+    }
+
+    #card4 {
+        grid-area: card4;
+    }
+
+    #card2 p,
+    #card3 p {
+        font-size: 16px;
+    }
+
+    #card2:hover .review,
+    #card3:hover .review {
+        visibility: visible;
+        opacity: 1;
+        transition: 
+            visibility 0.6s,
+            opacity 0.6s;
+    }
+}
+
+@media screen and (max-width: 790px) and (min-width: 650px) {
+    #hero {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+
+    #hero h1 {
+        font-size: 44px;
+    }
+}
+
+@media screen and (max-width: 650px) and (min-width: 400px) {
+    #navbar {
+        flex-direction: column;
+    }
+
+    #navbar #logo {
+        margin-right: 0px;
+    }
+
+    #navbar a {
+        padding: 10px;
+    }
+    
+    #hero {
+        align-items: center;
+        padding-left: 20px;
+        padding-right: 20px;
+        padding-top: 50px;
+    }
+    
+    #hero h1 {
+        text-align: center;
+        margin: 20px;
+        font-size: 40px;
+    }
+
+    #hero h3 {
+        text-align: center;
+        margin: 20px;
+    }
+
+    .cards {
+        padding: 20px;
+        height: 60vh;
+    }
+
+    .cards h2 {
+        font-size: 36px;
+    }
+
+    #cards-container {
+        grid-template-columns: 1fr;
+        grid-template-areas: 
+            "card1"
+            "card2"
+            "card4"
+            "card3";
+    }
+
+    #card1 {
+        grid-area: card1;
+    }
+
+    #card2 {
+        grid-area: card2;
+    }
+
+    #card3 {
+        grid-area: card3;
+    }
+
+    #card4 {
+        grid-area: card4;
+    }
+
+    #card2 p,
+    #card3 p {
+        font-size: 14px;
+    }
+
+    #card2:hover .review,
+    #card3:hover .review {
+        visibility: visible;
+        opacity: 1;
+        transition: 
+            visibility 0.6s,
+            opacity 0.6s;
+    }
+}
+
+@media screen and (min-width: 500px) and (max-width: 480px) {
+    #hero h1 {
+        font-size: 30px;
+    }
+}
