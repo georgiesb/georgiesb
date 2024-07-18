@@ -417,7 +417,30 @@ body {
     }
 }
 
-/* tablet */
+/* sidebar only */
+@media screen and (max-width: 1330px) {
+    #sidebar {
+        padding: 30px 40px;
+    }
+
+    #sidebar p {
+        display: none;
+    }
+} 
+
+
+/* tablet & mobile */
+/* @media screen and (max-width: 1250px) {
+    .menu-cards {
+        flex-direction: column;
+        /* flex-wrap: wrap; */
+    
+    /* .app-cards,
+    .entree-cards,
+    .dessert-cards {
+        flex-wrap: wrap;
+    } */
+
 @media screen and (max-width: 1220px) {
     #hero h1 {
         background-color: #f7f7f7;
@@ -432,12 +455,36 @@ body {
         color: #0e1111;
         padding: 20px;
         border-radius: 20px;
+        font-size: 36px;
+    }
+
+    #featured h2 {
+        font-size: 46px;
+    }
+    
+    #featured p {
+        font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 1120px) and (min-width: 901px) {
+    #featured {
+        padding-top: 10px;
+        padding-right: 20px;
+    }
+
+    #sidebar p {
+        display: hidden;
     }
 }
 
 @media screen and (max-width: 1000px) and (min-width: 901px) {
     #hero h1 {
         font-size: 60px;
+    }
+
+    #hero h3 {
+        font-size: 32px;
     }
 
     .cards {
@@ -462,6 +509,18 @@ body {
             visibility 0.6s,
             opacity 0.6s;
     }
+
+    #featured-img {
+        flex: 1.5;
+    }
+
+    #featured h2 {
+        font-size: 44px;
+    }
+    
+    #featured p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 900px) and (min-width: 650px) {
@@ -472,6 +531,10 @@ body {
 
     #hero h1 {
         font-size: 52px;
+    }
+
+    #hero h3 {
+        font-size: 30px;
     }
 
     .cards {
@@ -521,6 +584,26 @@ body {
             visibility 0.6s,
             opacity 0.6s;
     }
+
+    #two-columns1 {
+        flex-direction: column;
+    }
+
+    #featured-img {
+        flex: 1.5;
+    }
+
+    #featured {
+        padding-left: 10px;
+    }
+
+    #featured h2 {
+        font-size: 40px;
+    }
+    
+    #featured p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (max-width: 790px) and (min-width: 650px) {
@@ -531,6 +614,10 @@ body {
 
     #hero h1 {
         font-size: 44px;
+    }
+
+    #hero h3 {
+        font-size: 28px;
     }
 }
 
@@ -562,7 +649,8 @@ body {
 
     #hero h3 {
         text-align: center;
-        margin: 20px;
+        margin: 5px 20px 40px 20px;
+        font-size: 28px;
     }
 
     .cards {
@@ -601,7 +689,7 @@ body {
 
     #card2 p,
     #card3 p {
-        font-size: 14px;
+        font-size: 16px;
     }
 
     #card2:hover .review,
@@ -612,10 +700,30 @@ body {
             visibility 0.6s,
             opacity 0.6s;
     }
+
+    #two-columns1 {
+        flex-direction: column;
+    }
+
+    #featured {
+        padding-left: 10px;
+    }
+
+    #featured h2 {
+        font-size: 38px;
+    }
+    
+    #featured p {
+        font-size: 16px;
+    }
 }
 
 @media screen and (min-width: 500px) and (max-width: 480px) {
     #hero h1 {
         font-size: 30px;
+    }
+
+    #two-columns1 {
+        flex-direction: column;
     }
 }
