@@ -146,8 +146,9 @@ body {
     align-items: center;
     justify-content: center;
     text-align: center;
-    padding: 80px;
+    padding: 40px 80px;
     height: 100vh;
+    max-height: 600px;
 }
 
 .cards h2 {
@@ -308,7 +309,7 @@ body {
     flex: .3;
     background-color: #f5c939;
     border-radius: 5px;
-    padding: 40px 50px;
+    padding: 20px 50px;
     margin: 10px 40px 97px 60px;
 }
 
@@ -325,6 +326,12 @@ body {
     font-size: 21px;
     font-family: Port Lligat Sans, sans-serif;
     margin-top: 20px;
+}
+
+#sidebar img { 
+    width: 100%;
+    border-radius: 3px;
+    margin-top: 50px;
 }
 
 /* menu styling */
@@ -353,7 +360,7 @@ body {
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    flex: 900px;
     padding: 30px;
     margin-bottom: 50px;
     color: white;    
@@ -363,7 +370,7 @@ body {
 #app2,
 #app3 {
     padding: 30px;
-    width: 300px;
+    flex: 300px;
     display: flex;
     flex-direction: column;
 }
@@ -373,7 +380,7 @@ body {
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    flex: 900px;
     padding: 30px;
     margin-bottom: 50px;
 }
@@ -382,7 +389,7 @@ body {
 #entree2,
 #entree3 {
     padding: 30px;
-    width: 300px;
+    flex: 300px;
     display: flex;
     flex-direction: column;
 }
@@ -392,7 +399,7 @@ body {
     border-radius: 5px;
     display: flex;
     justify-content: space-between;
-    width: 900px;
+    flex: 900px;
     padding: 30px;
     margin-bottom: 50px;
     color: white;
@@ -402,7 +409,7 @@ body {
 #dessert2,
 #dessert3 {
     padding: 30px;
-    width: 300px;
+    flex: 300px;
     display: flex;
     flex-direction: column;
 }
@@ -478,6 +485,16 @@ body {
     }
 }
 
+@media screen and (max-width: 1050px) {
+    #two-columns2 {
+        flex-direction: column;
+    }
+
+    #sidebar {
+        text-align: center;
+    }
+}
+
 @media screen and (max-width: 1000px) and (min-width: 901px) {
     #hero h1 {
         font-size: 60px;
@@ -520,6 +537,18 @@ body {
     
     #featured p {
         font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 960px) {
+    #menu h2 {
+        text-align: center;
+    }
+
+    .app-cards,
+    .entree-cards,
+    .dessert-cards {
+        flex-direction: column;
     }
 }
 
